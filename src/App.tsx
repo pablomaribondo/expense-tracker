@@ -1,6 +1,7 @@
 import React from "react";
 
 import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App: React.FC = () => {
   const expenses = [
@@ -27,6 +28,7 @@ const App: React.FC = () => {
 
   return (
     <>
+      <NewExpense />
       <Expenses items={expenses} />
     </>
   );
