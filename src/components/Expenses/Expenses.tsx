@@ -1,7 +1,7 @@
 import React from "react";
 import "./Expenses.css";
 
-import { Expense } from "../../models/ExpenseItem.model";
+import { Expense } from "../../models/Expense.model";
 import ExpenseItem from "./ExpenseItem";
 import Card from "../UI/Card";
 
