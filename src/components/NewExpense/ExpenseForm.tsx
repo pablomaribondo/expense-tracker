@@ -20,8 +20,20 @@ const ExpenseForm: React.FC = () => {
     setDate(event.target.value);
   };
 
+  const onSubmitHandler = (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const expenseData = {
+      title,
+      amount,
+      date: new Date(date),
+    };
+
+    console.log(expenseData);
+  };
+
   return (
-    <form>
+    <form onSubmit={onSubmitHandler}>
       <div className="new-expense__controls">
         <div className="new-expense__control">
           <label>Title</label>
