@@ -30,6 +30,9 @@ const ExpenseForm: React.FC = () => {
     };
 
     console.log(expenseData);
+    setTitle("");
+    setAmount("");
+    setDate("");
   };
 
   return (
