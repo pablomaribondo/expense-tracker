@@ -2,14 +2,9 @@ import React from "react";
 import "./ExpenseItem.css";
 
 import ExpenseDate from "./ExpenseDate";
+import { Expense } from "../models/ExpenseItem.model";
 
-type ExpenseItemProps = {
-  date: Date;
-  title: string;
-  amount: number;
-};
-
-const ExpenseItem: React.FC<ExpenseItemProps> = ({ date, title, amount }) => {
+const ExpenseItem: React.FC<Expense> = ({ date, title, amount }) => {
   return (
     <div className="expense-item">
       <ExpenseDate date={date} />
