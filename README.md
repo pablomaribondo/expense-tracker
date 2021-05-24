@@ -1,4 +1,5 @@
 # Project Manager - Expense Tracker
+
 ## 💻 Projeto
 
 Projeto desenvolvido com base nas aulas do curso [React - The Complete Guide (incl Hooks, React Router, Redux)][course], oferecido por [Maximilian Schwarzmüller][author].
@@ -9,6 +10,12 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [TypeScript][typescript]
 - [React][react]
+
+## 📷 Screenshots
+
+<kbd>
+  <img src=".github/screenshot.png" alt="Expense Tracker" width="500" />
+</kbd>
 
 [course]: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 [author]: https://www.udemy.com/user/maximilian-schwarzmuller/
