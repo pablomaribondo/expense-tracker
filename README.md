@@ -14,7 +14,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 ## 📷 Screenshots
 
 <kbd>
-  <img src=".github/screenshot.png" alt="Expense Tracker" width="500" />
+  <img src=".github/screenshot.png" alt="Expense Tracker" width="600" />
 </kbd>
 
 [course]: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
