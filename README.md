@@ -1,4 +1,4 @@
-# Project Manager - Expense Tracker
+# Expense Tracker
 
 ## 💻 Projeto
 
